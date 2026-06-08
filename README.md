@@ -1,27 +1,34 @@
-# App Fullstack com React Native
+# 📱 App Fullstack com React Native
 
-Aplicativo mobile para cadastro e gerenciamento de agendamentos de serviços de refrigeração. O app permite listar, criar, editar e excluir agendamentos consumindo uma API hospedada no Render.
+Aplicativo mobile para cadastro e gerenciamento de agendamentos de serviços de refrigeração. O app permite listar, criar, editar e excluir agendamentos consumindo uma API própria hospedada no Render.
 
-## Funcionalidades
+---
 
-- Cadastro de cliente com nome, endereço e telefone
-- Seleção do tipo de serviço por lista de opções
-- Seleção de data e horário sem digitação manual
-- Campo de observação para detalhes adicionais
-- Listagem dos agendamentos cadastrados
-- Edição e exclusão de agendamentos
-- Integração com API externa
+## 🚀 Funcionalidades
 
-## Tecnologias
+* Cadastro de cliente com nome, endereço e telefone
+* Seleção do tipo de serviço por lista de opções
+* Seleção de data e horário sem necessidade de digitação manual
+* Campo de observação para detalhes adicionais
+* Listagem dos agendamentos cadastrados
+* Edição de agendamentos
+* Exclusão de agendamentos
+* Integração com API REST
 
-- React Native
-- Expo SDK 54
-- React 19
-- JavaScript
-- API REST
-- Render
+---
 
-## API
+## 🛠️ Tecnologias Utilizadas
+
+* React Native
+* Expo SDK 54
+* React 19
+* JavaScript
+* API REST
+* Render
+
+---
+
+## 🌐 API
 
 O aplicativo está conectado à API:
 
@@ -35,95 +42,128 @@ Endpoint utilizado para os agendamentos:
 https://backend-agenda-refrigeracao-fullstack.onrender.com/api/entries
 ```
 
-Operações usadas no app:
+### Operações utilizadas
 
-- `GET /api/entries` - listar agendamentos
-- `POST /api/entries` - criar agendamento
-- `PUT /api/entries/:id` - atualizar agendamento
-- `DELETE /api/entries/:id` - excluir agendamento
+| Método | Endpoint         | Descrição             |
+| ------ | ---------------- | --------------------- |
+| GET    | /api/entries     | Listar agendamentos   |
+| POST   | /api/entries     | Criar agendamento     |
+| PUT    | /api/entries/:id | Atualizar agendamento |
+| DELETE | /api/entries/:id | Excluir agendamento   |
 
-## Pré-requisitos
+---
 
-Antes de começar, instale:
+## 📋 Pré-requisitos
 
-- Node.js
-- npm
-- Expo Go no celular
+Antes de iniciar o projeto, instale:
 
-## Como executar
+* Node.js
+* npm
+* Expo Go (Android ou iOS)
 
-Clone o repositório:
+---
+
+## ▶️ Como executar
+
+### 1. Clonar o repositório
 
 ```bash
 git clone https://github.com/LNayaraSilva/App-Fullstack-com-React-Native.git
 ```
 
-Acesse a pasta do projeto:
+### 2. Acessar a pasta do projeto
 
 ```bash
 cd App-Fullstack-com-React-Native
 ```
 
-Instale as dependências:
+### 3. Instalar as dependências
 
 ```bash
 npm install
 ```
 
-Inicie o Expo:
+### 4. Executar o projeto
 
 ```bash
 npm start
 ```
 
-Depois, escaneie o QR Code com o Expo Go.
+Após iniciar o Expo, escaneie o QR Code utilizando o aplicativo Expo Go.
 
-## Scripts disponíveis
+---
+
+## 📜 Scripts disponíveis
+
+### Iniciar Expo
 
 ```bash
 npm start
 ```
 
-Inicia o servidor de desenvolvimento do Expo.
+### Executar Android
 
 ```bash
 npm run android
 ```
 
-Abre o projeto no Android.
+### Executar iOS
 
 ```bash
 npm run ios
 ```
 
-Abre o projeto no iOS.
+### Executar Web
 
 ```bash
 npm run web
 ```
 
-Abre o projeto no navegador.
+---
 
-## Estrutura principal
+## 📁 Estrutura do Projeto
 
 ```txt
-app-refrigeracao-mobile/
-|-- App.js
-|-- app.json
-|-- index.js
-|-- package.json
-|-- package-lock.json
-`-- assets/
+App-Fullstack-com-React-Native/
+├── App.js
+├── app.json
+├── index.js
+├── package.json
+├── package-lock.json
+└── assets/
 ```
 
-## Observação
+---
 
-O projeto utiliza Expo SDK 54. Caso apareça erro de incompatibilidade no Expo Go, atualize o aplicativo Expo Go no celular ou confirme se as dependências estão corretas com:
+## ⚠️ Observações
+
+O projeto utiliza o Expo SDK 54.
+
+Caso ocorra incompatibilidade com o Expo Go, execute:
 
 ```bash
 npx expo install --check
 ```
 
-## Licença
+Também é recomendado manter o aplicativo Expo Go atualizado para a versão mais recente disponível na loja.
 
-Este projeto está sob a licença MIT.
+---
+
+## 🎯 Objetivo do Projeto
+
+Projeto desenvolvido como atividade acadêmica com o objetivo de aplicar conceitos de:
+
+* Desenvolvimento Mobile com React Native
+* Consumo de APIs REST
+* Operações CRUD
+* Integração entre Frontend e Backend
+* Publicação de serviços em nuvem
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+**Laís Nayara**
+
+Curso: Análise e Desenvolvimento de Sistemas
+
